@@ -1,3 +1,141 @@
-body {
-    margin: 0;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+.header-container {
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 255);
+}
+.header {
+    max-width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.sendpay {
+    color: rgb(108, 99, 255);
+    width: 113px;
+    top: 25px;
+    left: 120px;
+    gap: 0px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header-left div {
+    font-weight: 700;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.How-it-Works {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+.sign-in {
+    font-size: 14px;
+    padding: 7px 16px;
+    border: 1px solid rgb(183, 179, 179);
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 700;
+}
+.register {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 7px 16px;
+    background-color: rgb(108, 99, 255);
+    border: 1px solid rgb(183, 179, 179);
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: montserrat;
+    font-weight: 700;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+.header-desk {
+    position: relative;
+    padding: 15px;
+    width: 550px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 75px;
+}
+.header-baslik {
+    font-weight: 650;
+    font-family: montserrat;
+    font-size: 50px;
+    line-height: 70px;
+}
+.line {
+    flex: 1 1 0%;
+    height: 3px;
+    background-color: rgb(183, 179, 179);
+    width: 10%;
+    margin-top: 10px;
+}
+.header-yazi {
+    margin-top: 30px;
+    font-family: montserrat;
+    font-size: 20px;
+    line-height: 25px;
+    width: 350px;
+}
+.register-content {
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 15px 50px;
+    background-color: rgb(108, 99, 255);
+    border: 1px solid rgb(183, 179, 179);
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: montserrat;
+    display: inline-block;
+}
+.learn-more-content {
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 15px 50px;
+    border: 1px solid rgb(183, 179, 179);
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: montserrat;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.header-image {
+    width: 650px;
+}
+.image{
+    width: 650px;
 }
